@@ -1,0 +1,7 @@
+[Unit]
+
+Description=Sync DNS record to my current IP address
+
+[Service]
+
+ExecStart=%h/Developer/cloudflare-ddns/sync.sh

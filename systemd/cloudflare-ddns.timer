@@ -1,0 +1,13 @@
+[Unit]
+
+Description=Cloudflare DDNS timer
+
+[Timer]
+
+OnBootSec=1min
+OnCalendar=*:*:1
+Unit=cloudflare-ddns.service
+
+[Install]
+
+WantedBy=multi-user.target
